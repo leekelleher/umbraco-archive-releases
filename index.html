@@ -1,209 +1,209 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-		<meta name="robots" content="noindex, nofollow">
-		<title>[Unofficial] Umbraco Archive Releases</title>
-		<style type="text/css">
-			body {max-width: 720px;margin: 0 auto;font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;}
-			a:link, a:visited {color: #0a0;}
-			a:hover, a:active {color: #a00;}
-			#footer {clear:both;margin-bottom:35px;}
-		</style>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-122639-2']);
-			_gaq.push(['_setDomainName', '.leekelleher.com']);
-			_gaq.push(['_trackPageview']);
-		</script>
-		<script type="text/javascript" async="true" src="http://www.google-analytics.com/ga.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				var trackEvent = function(type, element){
-					var title = $(element).attr('title');
-					if (typeof(title) == 'undefined') {
-						title = element.innerText;
-					}
-					_gaq.push(['_trackEvent', type, title]);
-				};
-				$('a[rel=download]').click(function(){
-					trackEvent('Download', this);
-				});
-				$('a[rel=external]').click(function(){
-					trackEvent('Referral', this);
-				});
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="robots" content="noindex, nofollow">
+	<title>[Unofficial] Umbraco Archive Releases</title>
+	<style type="text/css">
+		body {max-width: 720px;margin: 0 auto;font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;}
+		a:link, a:visited {color: #0a0;}
+		a:hover, a:active {color: #a00;}
+		#footer {clear:both;margin-bottom:35px;}
+	</style>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-122639-2']);
+		_gaq.push(['_setDomainName', '.leekelleher.com']);
+		_gaq.push(['_trackPageview']);
+	</script>
+	<script type="text/javascript" async="true" src="http://www.google-analytics.com/ga.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var trackEvent = function(type, element){
+				var title = $(element).attr('title');
+				if (typeof(title) == 'undefined') {
+					title = element.innerText;
+				}
+				_gaq.push(['_trackEvent', type, title]);
+			};
+			$('a[rel=download]').click(function(){
+				trackEvent('Download', this);
 			});
-		</script>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div id="content">
-				<div id="header">
-					<h1>[Unofficial] Umbraco Archive Releases</h1>
-				</div>
-				<div id="main">
-					<div id="contents" class="left">
-						<p>This archive of Umbraco releases is unofficial and has no way been endorsed by <a href="http://umbraco.com/" rel="external">Umbraco HQ</a>. Use of the archive is done <u>without any support or warranty</u>.</p>
-						<p>The sole purpose of this collection is to assist developers with upgrading from a legacy version to the latest release.</p>
-						<p>Special thanks to <a href="http://our.umbraco.org/member/1221" rel="external">Peter Dijksterhuis</a> for supplying the initial archive releases from 2.1.3 to 4.0.3. <a href="http://h5yr.com" title="h5yr">#h5yr</a></p>
+			$('a[rel=external]').click(function(){
+				trackEvent('Referral', this);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="content">
+			<div id="header">
+				<h1>[Unofficial] Umbraco Archive Releases</h1>
+			</div>
+			<div id="main">
+				<div id="contents" class="left">
+					<p>This archive of Umbraco releases is unofficial and has no way been endorsed by <a href="http://umbraco.com/" rel="external">Umbraco HQ</a>. Use of the archive is done <u>without any support or warranty</u>.</p>
+					<p>The sole purpose of this collection is to assist developers with upgrading from a legacy version to the latest release.</p>
+					<p>Special thanks to <a href="http://our.umbraco.org/member/1221" rel="external">Peter Dijksterhuis</a> for supplying the initial archive releases from 2.1.3 to 4.0.3. <a href="http://h5yr.com" title="h5yr">#h5yr</a></p>
+				
+					<h2><span>Latest Releases</span></h2>
+					<p>If you are looking for the latest releases of Umbraco, please go to <a href="http://our.umbraco.org/download" rel="external" title="Our Umbraco Download">the download page on Our Umbraco</a>.</p>
 					
-						<h2><span>Latest Releases</span></h2>
-						<p>If you are looking for the latest releases of Umbraco, please go to <a href="http://our.umbraco.org/download" rel="external" title="Our Umbraco Download">the download page on Our Umbraco</a>.</p>
-						
-						<h2><span>Archive Releases</span></h2>
-						<ul>
-							<li>
-								<strong>v2.x</strong>
-								<ul>
-									<li><a href="UmbracoCms.2.1.3.zip" rel="download">2.1.3</a></li>
-									<li><a href="UmbracoCms.2.1.4.zip" rel="download">2.1.4</a></li>
-									<li><a href="UmbracoCms.2.1.5.zip" rel="download">2.1.5</a></li>
-									<li><a href="UmbracoCms.2.1.6.zip" rel="download">2.1.6</a></li>
-									<li><a href="UmbracoCms.2.1.7.zip" rel="download">2.1.7</a></li>
-								</ul>
-							</li>
-							<li>
-								<strong>v3.x</strong>
-								<ul>
-									<li><a href="UmbracoCms.3.0.0.zip" rel="download">3.0.0</a></li>
-									<li><a href="UmbracoCms.3.0.1.zip" rel="download">3.0.1</a></li>
-									<li><a href="UmbracoCms.3.0.2.zip" rel="download">3.0.2</a></li>
-									<li><a href="UmbracoCms.3.0.3.zip" rel="download">3.0.3</a></li>
-									<li><a href="UmbracoCms.3.0.5.zip" rel="download">3.0.5</a></li>
-									<li><a href="UmbracoCms.3.0.6.zip" rel="download">3.0.6</a></li>
-								</ul>
-							</li>
-							<li>
-								<strong>v4.0.x</strong>
-								<ul>
-									<li><a href="UmbracoCms.4.0.1.zip" rel="download" >4.0.1</a> - included support for MySQL and VistaDB</li>
-									<li><a href="UmbracoCms.4.0.2.1.zip" rel="download">4.0.2.1</a></li>
-									<li><a href="UmbracoCms.4.0.3.zip" rel="download">4.0.3</a></li>
-									<li><a href="UmbracoCms.4.0.4.2.zip" rel="download">4.0.4.2</a></li>
-								</ul>
-							</li>
-							<li>
-								<strong>v4.5-11.x</strong>
-								<ul>
-									<li><a href="UmbracoCms.4.5.0.zip" rel="download">4.5.0</a> - .NET 4.0; dropped support for VistaDB. <a href="http://www.dascoba.com/files/VistaDBtoSQL.zip" title="VistaDB to SQL Server">Need to migrate to SQL?</a></li>
-									<li><a href="UmbracoCms.4.5.1.zip" rel="download">4.5.1</a></li>
-									<li><a href="UmbracoCms.4.5.2.zip" rel="download">4.5.2</a></li>
-									<li><a href="UmbracoCms.4.6.1.zip" rel="download">4.6.1</a> - v4.6.0 had a very short release</li>
-									<li><a href="UmbracoCms.4.7.0.zip" rel="download">4.7.0</a></li>
-									<li><a href="UmbracoCms.4.7.1.zip" rel="download">4.7.1</a></li>
-									<li><a href="UmbracoCms.4.7.1.1.zip" rel="download">4.7.1.1</a></li>
-									<li><a href="UmbracoCms.4.7.2.zip" rel="download">4.7.2</a></li>
-									<li><a href="UmbracoCms.4.8.0.zip" rel="download">4.8.0</a></li>
-									<li><a href="UmbracoCms.4.8.1.zip" rel="download">4.8.1</a></li>
-									<li><a href="UmbracoCms.4.9.0.zip" rel="download">4.9.0</a></li>
-									<li><a href="UmbracoCms.4.9.1.zip" rel="download">4.9.1</a></li>
-									<li><a href="UmbracoCms.4.10.1.zip" rel="download">4.10.1</a> - introduced native MVC (<a href="http://umbraco.com/follow-us/blog-archive/2012/11/14/security-update-for-4100.aspx" rel="external" title="Security update for 4.10.0">v4.10.0 had a short release</a>)</li>
-									<li><a href="UmbracoCms.4.11.3.1.zip" rel="download">4.11.3.1</a> - v4.11.1-3.x had a short releases</li>
-									<li><a href="UmbracoCms.4.11.4.zip" rel="download">4.11.4</a></li>
-									<li><a href="UmbracoCms.4.11.5.zip" rel="download">4.11.5</a></li>
-									<li><a href="UmbracoCms.4.11.6.zip" rel="download">4.11.6</a></li>
-									<li><a href="UmbracoCms.4.11.7.zip" rel="download">4.11.7</a></li>
-									<li><a href="UmbracoCms.4.11.8.zip" rel="download">4.11.8</a></li>
-									<li><a href="UmbracoCms.4.11.9.zip" rel="download">4.11.9</a></li>
-									<li><a href="UmbracoCms.4.11.10.zip" rel="download">4.11.10</a> - final release of v4.x</li>
-								</ul>
-							</li>
-							<li>
-								<strong>v5.x</strong>
-								<ul>
-									<li>Umbraco 5 (Jupiter) was a separate product/codebase, which was ultimately discontinued.<br/>Please see the <a href="http://umbraco.com/follow-us/blog-archive/2012/6/13/v5-rip.aspx" rel="external" title="Umbraco Blog: v5 RIP">v5 RIP</a> blog post for details.</li>
-								</ul>
-							</li>
-							<li>
-								<strong>v6.x</strong>
-								<ul>
-									<li><a href="UmbracoCms.6.0.0.zip" rel="download">6.0.0</a></li>
-									<li><a href="UmbracoCms.6.0.2.zip" rel="download">6.0.2</a> - v6.0.1 had a short release</li>
-									<li><a href="UmbracoCms.6.0.3.zip" rel="download">6.0.3</a></li>
-									<li><a href="UmbracoCms.6.0.4.zip" rel="download">6.0.4</a></li>
-									<li><a href="UmbracoCms.6.0.5.zip" rel="download">6.0.5</a></li>
-									<li><a href="UmbracoCms.6.0.6.zip" rel="download">6.0.6</a></li>
-									<li><a href="UmbracoCms.6.0.7.zip" rel="download">6.0.7</a></li>
-									<li><a href="UmbracoCms.6.1.0.zip" rel="download">6.1.0</a></li>
-									<li><a href="UmbracoCms.6.1.1.zip" rel="download">6.1.1</a></li>
-									<li><a href="UmbracoCms.6.1.2.zip" rel="download">6.1.2</a></li>
-									<li><a href="UmbracoCms.6.1.3.zip" rel="download">6.1.3</a></li>
-									<li><a href="UmbracoCms.6.1.4.zip" rel="download">6.1.4</a></li>
-									<li><a href="UmbracoCms.6.1.5.zip" rel="download">6.1.5</a></li>
-									<!--<li><a href="UmbracoCms.6.1.6.zip" rel="download">6.1.6</a></li>-->
-								</ul>
-							</li>
-						</ul>
-						
-						<h2><span>Future Releases</span></h2>
-						<p>Find out about upcoming releases, what features will be included and how to contribute on the <a href="http://our.umbraco.org/contribute/releases" rel="external">Our Umbraco releases</a> page.</p>
-						
-						<h2><span>Upgrade Paths</span></h2>
-						<p>The general recommended upgrade path is to go from the last patch release up to the next major version release:</p>
-						<p>
-							2.1.x &nbsp;&raquo; 3.0.0 &raquo; 3.0.6 &raquo; 4.0.1 &raquo; 4.0.4.2<br />
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&raquo; 4.5.0 &raquo; 4.5.2 &raquo; 4.6.1 &raquo; 4.7.2<br />
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&raquo; 4.8.1 &raquo; 4.9.0 &raquo; 4.11.10 <br />
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&raquo; 6.0.0 (<a href="http://our.umbraco.org/projects/developer-tools/path-fixup" rel="external" title="Our Umbraco Wiki: Path Fixup">apply the Path Fixup patch</a>) &raquo; 6.1.6
-						</p>
-						
-						<h2><span>Security updates</span></h2>
-						<p>April/May 2013 - two major vulnerabilities found. <a href="http://umbraco.com/follow-us/blog-archive/2013/5/1/security-update-two-major-vulnerabilities-found" rel="external" title="umbraco.com: Security update">Read more on the Umbraco blog post.</a></p>
-						<p>Security patches for all Umbraco releases are available.</p>
-						
-						<ul>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.0.zip" rel="external"   title="SecurityPatch: 4.5.0">4.5.0</a>     <a href="UmbracoCms.SecurityPatch.4.5.0.zip" rel="download" title="SecurityPatch [Mirror] 4.5.0">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.1.zip" rel="external"   title="SecurityPatch: 4.5.1">4.5.1</a>     <a href="UmbracoCms.SecurityPatch.4.5.1.zip" rel="download" title="SecurityPatch [Mirror] 4.5.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.2.zip" rel="external"   title="SecurityPatch: 4.5.1">4.5.2</a>     <a href="UmbracoCms.SecurityPatch.4.5.2.zip" rel="download" title="SecurityPatch [Mirror] 4.5.2">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.6.1.zip" rel="external"   title="SecurityPatch: 4.6.1">4.6.1</a>     <a href="UmbracoCms.SecurityPatch.4.6.1.zip" rel="download" title="SecurityPatch [Mirror] 4.6.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.0.zip" rel="external"   title="SecurityPatch: 4.7.0">4.7.0</a>     <a href="UmbracoCms.SecurityPatch.4.7.0.zip" rel="download" title="SecurityPatch [Mirror] 4.7.0">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.1.1.zip" rel="external" title="SecurityPatch: 4.7.1.1">4.7.1.1</a> <a href="UmbracoCms.SecurityPatch.4.7.1.1.zip" rel="download" title="SecurityPatch [Mirror] 4.7.1.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.2.zip" rel="external"   title="SecurityPatch: 4.7.2">4.7.2</a>     <a href="UmbracoCms.SecurityPatch.4.7.2.zip" rel="download" title="SecurityPatch [Mirror] 4.7.2">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.8.0.zip" rel="external"   title="SecurityPatch: 4.8.0">4.8.0</a>     <a href="UmbracoCms.SecurityPatch.4.8.0.zip" rel="download" title="SecurityPatch [Mirror] 4.8.0">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.8.1.zip" rel="external"   title="SecurityPatch: 4.8.1">4.8.1</a>     <a href="UmbracoCms.SecurityPatch.4.8.1.zip" rel="download" title="SecurityPatch [Mirror] 4.8.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.9.0.zip" rel="external"   title="SecurityPatch: 4.9.0">4.9.0</a>     <a href="UmbracoCms.SecurityPatch.4.9.0.zip" rel="download" title="SecurityPatch [Mirror] 4.9.0">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.9.1.zip" rel="external"   title="SecurityPatch: 4.9.1">4.9.1</a>     <a href="UmbracoCms.SecurityPatch.4.9.1.zip" rel="download" title="SecurityPatch [Mirror] 4.9.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.10.1.zip" rel="external"  title="SecurityPatch: 4.10.1">4.10.1</a>   <a href="UmbracoCms.SecurityPatch.4.10.1.zip" rel="download" title="SecurityPatch [Mirror] 4.10.1">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.11.7.zip" rel="external"  title="SecurityPatch: 4.11.7">4.11.7</a>   <a href="UmbracoCms.SecurityPatch.4.11.7.zip" rel="download" title="SecurityPatch [Mirror] 4.11.7">[mirror]</a></li>
-							<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.6.0.4.zip" rel="external"   title="SecurityPatch: 6.0.4">6.0.4</a>     <a href="UmbracoCms.SecurityPatch.6.0.4.zip" rel="download" title="SecurityPatch [Mirror] 6.0.4">[mirror]</a></li>
-						</ul>
-						
-						<h2><span>Guides/Tutorials</span></h2>
-						<ul>
-							<li>Our Umbraco (new) docs:
-								<ul>
-									<li><a href="http://our.umbraco.org/documentation/Installation/Upgrading/" rel="external" title="Our Umbraco Docs: Upgrading existing installs">Upgrading an existing Umbraco installation</a></li>
-								</ul>
-							</li>
-							<li>Our Umbraco (old) wiki:
-								<ul>
-									<li><a href="http://our.umbraco.org/wiki/install-and-setup/upgrading-an-umbraco-installation" rel="external" title="Our Umbraco Wiki: Upgrade Umbraco">Upgrading an Umbraco installation</a></li>
-									<li><a href="http://our.umbraco.org/wiki/about/roadmap/umbraco-45/upgrading-to-umbraco-45" rel="external" title="Our Umbraco Wiki: Upgrade to Umbraco 4.5">Upgrading to Umbraco 4.5</a></li>
-								</ul>
-							</li>
-							<li>ProWorks: <a href="http://www.proworks.com/blog/2011/03/03/notes-and-experiences-upgrading-umbraco-40x-to-461-and-470/" rel="external" title="ProWorks: Upgrade Guide">Notes and Experiences Upgrading Umbraco 4.0.x to 4.6.1 and 4.7.0</a></li>
-							<li>LittleWebEmpire: <a href="http://www.littlewebempire.com/blog/2010/10/29/update-umbraco-from-4021-to-452" rel="external" title="LittleWebEmpire: Upgrade Guide">Update Umbraco from 4.0.2.1 to 4.5.2</a></li>
-							<li>Auros: <a href="http://www.auros.co.uk/blog/index.php/2013/01/14/upgrade-your-umbraco-site/" rel="external" title="Auros: Upgrade Guide">Upgrade your Umbraco site...</a> (4.7 &raquo; 4.11.x; including uComponents)</li>
-						</ul>
-					</div>
-					<div id="sidenavigation" class="right">
-						<h2><span>External Links</span></h2>
-						<ul id="secondLevelNavigation">
-							<li><a href="http://umbraco.com/" rel="external" title="Umbraco HQ (bottom)">Umbraco - the open source ASP.NET CMS</a></li>
-							<li><a href="https://github.com/umbraco/Umbraco-CMS" rel="external" title="GitHub (bottom)">Umbraco project on GitHub</a></li>
-							<li><a href="http://our.umbraco.org/forum" rel="external" title="Our Umbraco Forum">Umbraco community forum</a></li>
-							<li><a href="http://our.umbraco.org/projects" rel="external" title="Our Umbraco Projects">Umbraco community packages and projects</a></li>
-							<li><a href="http://our.umbraco.org/documentation" rel="external" title="Umbraco Documentation">Umbraco documentation</a></li>
-							<li><a href="http://our.umbraco.org/events" rel="external" title="Our Umbraco Events">Umbraco community events</a></li>
-						</ul>
-					</div>
+					<h2><span>Archive Releases</span></h2>
+					<ul>
+						<li>
+							<strong>v2.x</strong>
+							<ul>
+								<li><a href="UmbracoCms.2.1.3.zip" rel="download">2.1.3</a></li>
+								<li><a href="UmbracoCms.2.1.4.zip" rel="download">2.1.4</a></li>
+								<li><a href="UmbracoCms.2.1.5.zip" rel="download">2.1.5</a></li>
+								<li><a href="UmbracoCms.2.1.6.zip" rel="download">2.1.6</a></li>
+								<li><a href="UmbracoCms.2.1.7.zip" rel="download">2.1.7</a></li>
+							</ul>
+						</li>
+						<li>
+							<strong>v3.x</strong>
+							<ul>
+								<li><a href="UmbracoCms.3.0.0.zip" rel="download">3.0.0</a></li>
+								<li><a href="UmbracoCms.3.0.1.zip" rel="download">3.0.1</a></li>
+								<li><a href="UmbracoCms.3.0.2.zip" rel="download">3.0.2</a></li>
+								<li><a href="UmbracoCms.3.0.3.zip" rel="download">3.0.3</a></li>
+								<li><a href="UmbracoCms.3.0.5.zip" rel="download">3.0.5</a></li>
+								<li><a href="UmbracoCms.3.0.6.zip" rel="download">3.0.6</a></li>
+							</ul>
+						</li>
+						<li>
+							<strong>v4.0.x</strong>
+							<ul>
+								<li><a href="UmbracoCms.4.0.1.zip" rel="download" >4.0.1</a> - included support for MySQL and VistaDB</li>
+								<li><a href="UmbracoCms.4.0.2.1.zip" rel="download">4.0.2.1</a></li>
+								<li><a href="UmbracoCms.4.0.3.zip" rel="download">4.0.3</a></li>
+								<li><a href="UmbracoCms.4.0.4.2.zip" rel="download">4.0.4.2</a></li>
+							</ul>
+						</li>
+						<li>
+							<strong>v4.5-11.x</strong>
+							<ul>
+								<li><a href="UmbracoCms.4.5.0.zip" rel="download">4.5.0</a> - .NET 4.0; dropped support for VistaDB. <a href="http://www.dascoba.com/files/VistaDBtoSQL.zip" title="VistaDB to SQL Server">Need to migrate to SQL?</a></li>
+								<li><a href="UmbracoCms.4.5.1.zip" rel="download">4.5.1</a></li>
+								<li><a href="UmbracoCms.4.5.2.zip" rel="download">4.5.2</a></li>
+								<li><a href="UmbracoCms.4.6.1.zip" rel="download">4.6.1</a> - v4.6.0 had a very short release</li>
+								<li><a href="UmbracoCms.4.7.0.zip" rel="download">4.7.0</a></li>
+								<li><a href="UmbracoCms.4.7.1.zip" rel="download">4.7.1</a></li>
+								<li><a href="UmbracoCms.4.7.1.1.zip" rel="download">4.7.1.1</a></li>
+								<li><a href="UmbracoCms.4.7.2.zip" rel="download">4.7.2</a></li>
+								<li><a href="UmbracoCms.4.8.0.zip" rel="download">4.8.0</a></li>
+								<li><a href="UmbracoCms.4.8.1.zip" rel="download">4.8.1</a></li>
+								<li><a href="UmbracoCms.4.9.0.zip" rel="download">4.9.0</a></li>
+								<li><a href="UmbracoCms.4.9.1.zip" rel="download">4.9.1</a></li>
+								<li><a href="UmbracoCms.4.10.1.zip" rel="download">4.10.1</a> - introduced native MVC (<a href="http://umbraco.com/follow-us/blog-archive/2012/11/14/security-update-for-4100.aspx" rel="external" title="Security update for 4.10.0">v4.10.0 had a short release</a>)</li>
+								<li><a href="UmbracoCms.4.11.3.1.zip" rel="download">4.11.3.1</a> - v4.11.1-3.x had a short releases</li>
+								<li><a href="UmbracoCms.4.11.4.zip" rel="download">4.11.4</a></li>
+								<li><a href="UmbracoCms.4.11.5.zip" rel="download">4.11.5</a></li>
+								<li><a href="UmbracoCms.4.11.6.zip" rel="download">4.11.6</a></li>
+								<li><a href="UmbracoCms.4.11.7.zip" rel="download">4.11.7</a></li>
+								<li><a href="UmbracoCms.4.11.8.zip" rel="download">4.11.8</a></li>
+								<li><a href="UmbracoCms.4.11.9.zip" rel="download">4.11.9</a></li>
+								<li><a href="UmbracoCms.4.11.10.zip" rel="download">4.11.10</a> - final release of v4.x</li>
+							</ul>
+						</li>
+						<li>
+							<strong>v5.x</strong>
+							<ul>
+								<li>Umbraco 5 (Jupiter) was a separate product/codebase, which was ultimately discontinued.<br/>Please see the <a href="http://umbraco.com/follow-us/blog-archive/2012/6/13/v5-rip.aspx" rel="external" title="Umbraco Blog: v5 RIP">v5 RIP</a> blog post for details.</li>
+							</ul>
+						</li>
+						<li>
+							<strong>v6.x</strong>
+							<ul>
+								<li><a href="UmbracoCms.6.0.0.zip" rel="download">6.0.0</a></li>
+								<li><a href="UmbracoCms.6.0.2.zip" rel="download">6.0.2</a> - v6.0.1 had a short release</li>
+								<li><a href="UmbracoCms.6.0.3.zip" rel="download">6.0.3</a></li>
+								<li><a href="UmbracoCms.6.0.4.zip" rel="download">6.0.4</a></li>
+								<li><a href="UmbracoCms.6.0.5.zip" rel="download">6.0.5</a></li>
+								<li><a href="UmbracoCms.6.0.6.zip" rel="download">6.0.6</a></li>
+								<li><a href="UmbracoCms.6.0.7.zip" rel="download">6.0.7</a></li>
+								<li><a href="UmbracoCms.6.1.0.zip" rel="download">6.1.0</a></li>
+								<li><a href="UmbracoCms.6.1.1.zip" rel="download">6.1.1</a></li>
+								<li><a href="UmbracoCms.6.1.2.zip" rel="download">6.1.2</a></li>
+								<li><a href="UmbracoCms.6.1.3.zip" rel="download">6.1.3</a></li>
+								<li><a href="UmbracoCms.6.1.4.zip" rel="download">6.1.4</a></li>
+								<li><a href="UmbracoCms.6.1.5.zip" rel="download">6.1.5</a></li>
+								<!--<li><a href="UmbracoCms.6.1.6.zip" rel="download">6.1.6</a></li>-->
+							</ul>
+						</li>
+					</ul>
+					
+					<h2><span>Future Releases</span></h2>
+					<p>Find out about upcoming releases, what features will be included and how to contribute on the <a href="http://our.umbraco.org/contribute/releases" rel="external">Our Umbraco releases</a> page.</p>
+					
+					<h2><span>Upgrade Paths</span></h2>
+					<p>The general recommended upgrade path is to go from the last patch release up to the next major version release:</p>
+					<p>
+						2.1.x &nbsp;&raquo; 3.0.0 &raquo; 3.0.6 &raquo; 4.0.1 &raquo; 4.0.4.2<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&raquo; 4.5.0 &raquo; 4.5.2 &raquo; 4.6.1 &raquo; 4.7.2<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&raquo; 4.8.1 &raquo; 4.9.0 &raquo; 4.11.10 <br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&raquo; 6.0.0 (<a href="http://our.umbraco.org/projects/developer-tools/path-fixup" rel="external" title="Our Umbraco Wiki: Path Fixup">apply the Path Fixup patch</a>) &raquo; 6.1.6
+					</p>
+					
+					<h2><span>Security updates</span></h2>
+					<p>April/May 2013 - two major vulnerabilities found. <a href="http://umbraco.com/follow-us/blog-archive/2013/5/1/security-update-two-major-vulnerabilities-found" rel="external" title="umbraco.com: Security update">Read more on the Umbraco blog post.</a></p>
+					<p>Security patches for all Umbraco releases are available.</p>
+					
+					<ul>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.0.zip" rel="external"   title="SecurityPatch: 4.5.0">4.5.0</a>     <a href="UmbracoCms.SecurityPatch.4.5.0.zip" rel="download" title="SecurityPatch [Mirror] 4.5.0">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.1.zip" rel="external"   title="SecurityPatch: 4.5.1">4.5.1</a>     <a href="UmbracoCms.SecurityPatch.4.5.1.zip" rel="download" title="SecurityPatch [Mirror] 4.5.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.5.2.zip" rel="external"   title="SecurityPatch: 4.5.1">4.5.2</a>     <a href="UmbracoCms.SecurityPatch.4.5.2.zip" rel="download" title="SecurityPatch [Mirror] 4.5.2">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.6.1.zip" rel="external"   title="SecurityPatch: 4.6.1">4.6.1</a>     <a href="UmbracoCms.SecurityPatch.4.6.1.zip" rel="download" title="SecurityPatch [Mirror] 4.6.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.0.zip" rel="external"   title="SecurityPatch: 4.7.0">4.7.0</a>     <a href="UmbracoCms.SecurityPatch.4.7.0.zip" rel="download" title="SecurityPatch [Mirror] 4.7.0">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.1.1.zip" rel="external" title="SecurityPatch: 4.7.1.1">4.7.1.1</a> <a href="UmbracoCms.SecurityPatch.4.7.1.1.zip" rel="download" title="SecurityPatch [Mirror] 4.7.1.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.7.2.zip" rel="external"   title="SecurityPatch: 4.7.2">4.7.2</a>     <a href="UmbracoCms.SecurityPatch.4.7.2.zip" rel="download" title="SecurityPatch [Mirror] 4.7.2">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.8.0.zip" rel="external"   title="SecurityPatch: 4.8.0">4.8.0</a>     <a href="UmbracoCms.SecurityPatch.4.8.0.zip" rel="download" title="SecurityPatch [Mirror] 4.8.0">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.8.1.zip" rel="external"   title="SecurityPatch: 4.8.1">4.8.1</a>     <a href="UmbracoCms.SecurityPatch.4.8.1.zip" rel="download" title="SecurityPatch [Mirror] 4.8.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.9.0.zip" rel="external"   title="SecurityPatch: 4.9.0">4.9.0</a>     <a href="UmbracoCms.SecurityPatch.4.9.0.zip" rel="download" title="SecurityPatch [Mirror] 4.9.0">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.9.1.zip" rel="external"   title="SecurityPatch: 4.9.1">4.9.1</a>     <a href="UmbracoCms.SecurityPatch.4.9.1.zip" rel="download" title="SecurityPatch [Mirror] 4.9.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.10.1.zip" rel="external"  title="SecurityPatch: 4.10.1">4.10.1</a>   <a href="UmbracoCms.SecurityPatch.4.10.1.zip" rel="download" title="SecurityPatch [Mirror] 4.10.1">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.4.11.7.zip" rel="external"  title="SecurityPatch: 4.11.7">4.11.7</a>   <a href="UmbracoCms.SecurityPatch.4.11.7.zip" rel="download" title="SecurityPatch [Mirror] 4.11.7">[mirror]</a></li>
+						<li><a href="http://www.umbraco.com/SecurityPatches/UmbracoCms.SecurityPatch.6.0.4.zip" rel="external"   title="SecurityPatch: 6.0.4">6.0.4</a>     <a href="UmbracoCms.SecurityPatch.6.0.4.zip" rel="download" title="SecurityPatch [Mirror] 6.0.4">[mirror]</a></li>
+					</ul>
+					
+					<h2><span>Guides/Tutorials</span></h2>
+					<ul>
+						<li>Our Umbraco (new) docs:
+							<ul>
+								<li><a href="http://our.umbraco.org/documentation/Installation/Upgrading/" rel="external" title="Our Umbraco Docs: Upgrading existing installs">Upgrading an existing Umbraco installation</a></li>
+							</ul>
+						</li>
+						<li>Our Umbraco (old) wiki:
+							<ul>
+								<li><a href="http://our.umbraco.org/wiki/install-and-setup/upgrading-an-umbraco-installation" rel="external" title="Our Umbraco Wiki: Upgrade Umbraco">Upgrading an Umbraco installation</a></li>
+								<li><a href="http://our.umbraco.org/wiki/about/roadmap/umbraco-45/upgrading-to-umbraco-45" rel="external" title="Our Umbraco Wiki: Upgrade to Umbraco 4.5">Upgrading to Umbraco 4.5</a></li>
+							</ul>
+						</li>
+						<li>ProWorks: <a href="http://www.proworks.com/blog/2011/03/03/notes-and-experiences-upgrading-umbraco-40x-to-461-and-470/" rel="external" title="ProWorks: Upgrade Guide">Notes and Experiences Upgrading Umbraco 4.0.x to 4.6.1 and 4.7.0</a></li>
+						<li>LittleWebEmpire: <a href="http://www.littlewebempire.com/blog/2010/10/29/update-umbraco-from-4021-to-452" rel="external" title="LittleWebEmpire: Upgrade Guide">Update Umbraco from 4.0.2.1 to 4.5.2</a></li>
+						<li>Auros: <a href="http://www.auros.co.uk/blog/index.php/2013/01/14/upgrade-your-umbraco-site/" rel="external" title="Auros: Upgrade Guide">Upgrade your Umbraco site...</a> (4.7 &raquo; 4.11.x; including uComponents)</li>
+					</ul>
+				</div>
+				<div id="sidenavigation" class="right">
+					<h2><span>External Links</span></h2>
+					<ul id="secondLevelNavigation">
+						<li><a href="http://umbraco.com/" rel="external" title="Umbraco HQ (bottom)">Umbraco - the open source ASP.NET CMS</a></li>
+						<li><a href="https://github.com/umbraco/Umbraco-CMS" rel="external" title="GitHub (bottom)">Umbraco project on GitHub</a></li>
+						<li><a href="http://our.umbraco.org/forum" rel="external" title="Our Umbraco Forum">Umbraco community forum</a></li>
+						<li><a href="http://our.umbraco.org/projects" rel="external" title="Our Umbraco Projects">Umbraco community packages and projects</a></li>
+						<li><a href="http://our.umbraco.org/documentation" rel="external" title="Umbraco Documentation">Umbraco documentation</a></li>
+						<li><a href="http://our.umbraco.org/events" rel="external" title="Our Umbraco Events">Umbraco community events</a></li>
+					</ul>
 				</div>
 			</div>
-			<div id="footer"></div>
 		</div>
-	</body>
+		<div id="footer"></div>
+	</div>
+</body>
 </html> 
